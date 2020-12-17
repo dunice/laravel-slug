@@ -1,0 +1,21 @@
+{
+  "name": "dunice/laravel-slug",
+  "type": "library",
+  "description": "A simple library to handle model slug.",
+  "authors": [
+    {
+      "name": "Hudson Dunice",
+      "email": "dunice@gmail.com",
+      "homepage": "https://github.com/dunice"
+    }
+  ],
+  "require": {
+    "php": ">=7.3",
+    "illuminate/support": "^8.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Dunice\\Sluggable\\": "src/"
+    }
+  }
+}
